@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  height: 100vh;
+  background-image: url("dab.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 272px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 60vh;
+  padding: 0px;
+  width: 60vw;
+}
+.read {
+  margin: 40px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  align-items: center;
+}
+.info h1 {
+  flex: 1;
+  margin-left: 40px;
+}
+.info ul {
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+  flex: 2;
+}
